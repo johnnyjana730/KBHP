@@ -1,0 +1,12 @@
+dataset_MovieLens-1M dim_4 n_hop_1 kge_weight_1e-05 l2_weight_1e-07 lr_0.005 batch_size_512 n_epoch_1000 n_memory_16 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_0 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_fl_frame model_name_EpNet_item_tr_ini using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Euclidean att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_False path_<path.Path object at 0x7fc41c0b2ee0> logger_<Logger ../output_2_23/log/MovieLens-1M/EpNet_item_tr_ini/Euclidean/02_27_emb_vis_fl_frame_hid_4_hop_1_mm_16_lr_0.005_ke_1e-05_l2_1e-07_att_beta_0.05_r_2.0_t_1.0.txt (DEBUG)> n_user_6036 n_item_2445 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_
+best eva precision = 0.316,0.33,0.3088,0.2992,0.26752,0.23352,0.19408
+best eva recall = 0.005859,0.012187,0.028314,0.054685,0.120751,0.210009,0.345656
+best eva ndcg = 0.316,0.326832,0.313104,0.306017,0.3337,0.463764,0.642297
+best test precision = 0.352,0.314,0.296,0.2904,0.2629,0.2298,0.1937
+best test recall = 0.0064,0.0114,0.0271,0.0534,0.1197,0.2081,0.3483
+best test ndcg = 0.352,0.3226,0.307,0.3,0.3278,0.4549,0.6362
+
+****************************************************************************************************
+dataset_MovieLens-1M dim_4 n_hop_1 kge_weight_1e-05 l2_weight_1e-07 lr_0.005 batch_size_512 n_epoch_1000 n_memory_16 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_0 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_fl_frame model_name_EpNet_item_tr_ini using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Euclidean att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_False path_<path.Path object at 0x7fc41c0b2ee0> logger_<Logger ../output_2_23/log/MovieLens-1M/EpNet_item_tr_ini/Euclidean/02_27_emb_vis_fl_frame_hid_4_hop_1_mm_16_lr_0.005_ke_1e-05_l2_1e-07_att_beta_0.05_r_2.0_t_1.0.txt (DEBUG)> n_user_6036 n_item_2445 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_
+step 56  eval auc: 0.9107 acc: 0.8352 f1: 0.8390 test auc: 0.9093 acc: 0.8340 f1: 0.8369
+****************************************************************************************************

@@ -1,0 +1,12 @@
+dataset_amazon-book_20core dim_64 n_hop_1 kge_weight_1e-06 l2_weight_1e-07 lr_0.003 batch_size_1024 n_epoch_1000 n_memory_16 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_5 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_fl_frame model_name_EpNet_item_tr_ini using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Euclidean att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_False path_<path.Path object at 0x7fb756ca0430> logger_<Logger ../output_2_23/log/amazon-book_20core/EpNet_item_tr_ini/Euclidean/02_27_emb_vis_fl_frame_hid_64_hop_1_mm_16_lr_0.003_ke_1e-06_l2_1e-07_att_beta_0.05_r_2.0_t_1.0.txt (DEBUG)> n_user_70585 n_item_24915 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_
+best eva precision = 0.032,0.04,0.0424,0.0388,0.03856,0.03616,0.03156
+best eva recall = 0.000719,0.001965,0.005063,0.009918,0.025714,0.048187,0.083286
+best eva ndcg = 0.032,0.039166,0.047687,0.064942,0.121301,0.187041,0.271537
+best test precision = 0.048,0.034,0.0416,0.044,0.0406,0.0363,0.0332
+best test recall = 0.0013,0.0019,0.006,0.0122,0.0271,0.0489,0.0873
+best test ndcg = 0.048,0.0387,0.0531,0.0816,0.1325,0.193,0.2892
+
+****************************************************************************************************
+dataset_amazon-book_20core dim_64 n_hop_1 kge_weight_1e-06 l2_weight_1e-07 lr_0.003 batch_size_1024 n_epoch_1000 n_memory_16 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_5 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_fl_frame model_name_EpNet_item_tr_ini using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Euclidean att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_False path_<path.Path object at 0x7fb756ca0430> logger_<Logger ../output_2_23/log/amazon-book_20core/EpNet_item_tr_ini/Euclidean/02_27_emb_vis_fl_frame_hid_64_hop_1_mm_16_lr_0.003_ke_1e-06_l2_1e-07_att_beta_0.05_r_2.0_t_1.0.txt (DEBUG)> n_user_70585 n_item_24915 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_
+step 16  eval auc: 0.7922 acc: 0.7209 f1: 0.7257 test auc: 0.7909 acc: 0.7183 f1: 0.7227
+****************************************************************************************************

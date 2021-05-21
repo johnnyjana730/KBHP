@@ -1,0 +1,12 @@
+dataset_music dim_32 n_hop_1 kge_weight_1e-05 l2_weight_1e-06 lr_0.0006 batch_size_128 n_epoch_1000 n_memory_16 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_0 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_fl_frame model_name_EpNet_item_tr_ini using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Euclidean att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_False path_<path.Path object at 0x7fc78905af10> logger_<Logger ../output_2_23/log/music/EpNet_item_tr_ini/Euclidean/02_27_emb_vis_fl_frame_hid_32_hop_1_mm_16_lr_0.0006_ke_1e-05_l2_1e-06_att_beta_0.05_r_2.0_t_1.0.txt (DEBUG)> n_user_1872 n_item_3846 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_
+best eva precision = 0.016,0.016,0.008,0.0072,0.00816,0.00744,0.00624
+best eva recall = 0.004167,0.009967,0.0121,0.023043,0.084014,0.139386,0.233824
+best eva ndcg = 0.016,0.021453,0.024147,0.031887,0.060356,0.08378,0.115731
+best test precision = 0.012,0.01,0.008,0.006,0.0078,0.008,0.0068
+best test recall = 0.01,0.012,0.0183,0.0223,0.0775,0.1652,0.2779
+best test ndcg = 0.012,0.0145,0.0218,0.0268,0.0541,0.0833,0.1179
+
+****************************************************************************************************
+dataset_music dim_32 n_hop_1 kge_weight_1e-05 l2_weight_1e-06 lr_0.0006 batch_size_128 n_epoch_1000 n_memory_16 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_0 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_fl_frame model_name_EpNet_item_tr_ini using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Euclidean att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_False path_<path.Path object at 0x7fc78905af10> logger_<Logger ../output_2_23/log/music/EpNet_item_tr_ini/Euclidean/02_27_emb_vis_fl_frame_hid_32_hop_1_mm_16_lr_0.0006_ke_1e-05_l2_1e-06_att_beta_0.05_r_2.0_t_1.0.txt (DEBUG)> n_user_1872 n_item_3846 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_
+step 12  eval auc: 0.8127 acc: 0.7471 f1: 0.7272 test auc: 0.8099 acc: 0.7438 f1: 0.7260
+****************************************************************************************************

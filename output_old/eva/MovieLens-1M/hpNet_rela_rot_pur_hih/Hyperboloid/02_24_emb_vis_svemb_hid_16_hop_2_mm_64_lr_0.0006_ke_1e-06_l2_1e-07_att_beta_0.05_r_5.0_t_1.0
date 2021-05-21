@@ -1,0 +1,12 @@
+dataset_MovieLens-1M dim_16 n_hop_2 kge_weight_1e-06 l2_weight_1e-07 lr_0.0006 batch_size_512 n_epoch_1000 n_memory_64 emb_eval_True r_5.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_0 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_svemb model_name_hpNet_rela_rot_pur_hih using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Hyperboloid att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_True path_<path_svemb.Path object at 0x7fa6d6d8c6d0> logger_<Logger ../output_2_23/log/MovieLens-1M/hpNet_rela_rot_pur_hih/Hyperboloid/02_24_emb_vis_svemb_hid_16_hop_2_mm_64_lr_0.0006_ke_1e-06_l2_1e-07_att_beta_0.05_r_5.0_t_1.0.txt (DEBUG)> n_user_6036 n_item_2445 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_ epoch_0
+best eva precision = 0.436,0.398,0.3544,0.3524,0.3224,0.2764,0.22092
+best eva recall = 0.008111,0.01473,0.032877,0.065128,0.147307,0.249318,0.394288
+best eva ndcg = 0.436,0.406599,0.369472,0.363408,0.377219,0.50954,0.684587
+best test precision = 0.4,0.4,0.3824,0.358,0.3078,0.2683,0.2177
+best test recall = 0.0074,0.0151,0.0354,0.0658,0.1414,0.2451,0.3938
+best test ndcg = 0.4,0.4,0.3878,0.369,0.3713,0.5036,0.6819
+
+****************************************************************************************************
+dataset_MovieLens-1M dim_16 n_hop_2 kge_weight_1e-06 l2_weight_1e-07 lr_0.0006 batch_size_512 n_epoch_1000 n_memory_64 emb_eval_True r_5.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_0 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_svemb model_name_hpNet_rela_rot_pur_hih using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Hyperboloid att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_True path_<path_svemb.Path object at 0x7fa6d6d8c6d0> logger_<Logger ../output_2_23/log/MovieLens-1M/hpNet_rela_rot_pur_hih/Hyperboloid/02_24_emb_vis_svemb_hid_16_hop_2_mm_64_lr_0.0006_ke_1e-06_l2_1e-07_att_beta_0.05_r_5.0_t_1.0.txt (DEBUG)> n_user_6036 n_item_2445 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_ epoch_0
+step 69  eval auc: 0.9355 acc: 0.8619 f1: 0.8631 test auc: 0.9349 acc: 0.8608 f1: 0.8611
+****************************************************************************************************

@@ -1,0 +1,12 @@
+dataset_amazon-book_20core dim_16 n_hop_1 kge_weight_5e-05 l2_weight_5e-07 lr_0.0005 batch_size_512 n_epoch_1000 n_memory_32 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_5 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_svemb model_name_hpNet_rela_rot_pur_hih using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Hyperboloid att_beta_0.1 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_True path_<path_svemb.Path object at 0x7fc77d4406d0> logger_<Logger ../output_2_23/log/amazon-book_20core/hpNet_rela_rot_pur_hih/Hyperboloid/02_24_emb_vis_svemb_hid_16_hop_1_mm_32_lr_0.0005_ke_5e-05_l2_5e-07_att_beta_0.1_r_2.0_t_1.0.txt (DEBUG)> n_user_70585 n_item_24915 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_ epoch_0
+best eva precision = 0.116,0.136,0.1152,0.1156,0.09376,0.07056,0.04996
+best eva recall = 0.003369,0.008131,0.016934,0.032866,0.065329,0.097695,0.135672
+best eva ndcg = 0.116,0.133427,0.137028,0.184902,0.270966,0.343514,0.41466
+best test precision = 0.2,0.194,0.1544,0.1252,0.095,0.0728,0.0517
+best test recall = 0.0057,0.0109,0.021,0.0334,0.0635,0.0965,0.1351
+best test ndcg = 0.2,0.1973,0.1881,0.2144,0.2941,0.3678,0.443
+
+****************************************************************************************************
+dataset_amazon-book_20core dim_16 n_hop_1 kge_weight_5e-05 l2_weight_5e-07 lr_0.0005 batch_size_512 n_epoch_1000 n_memory_32 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_5 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_svemb model_name_hpNet_rela_rot_pur_hih using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Hyperboloid att_beta_0.1 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_True path_<path_svemb.Path object at 0x7fc77d4406d0> logger_<Logger ../output_2_23/log/amazon-book_20core/hpNet_rela_rot_pur_hih/Hyperboloid/02_24_emb_vis_svemb_hid_16_hop_1_mm_32_lr_0.0005_ke_5e-05_l2_5e-07_att_beta_0.1_r_2.0_t_1.0.txt (DEBUG)> n_user_70585 n_item_24915 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_ epoch_0
+step 53  eval auc: 0.8990 acc: 0.8038 f1: 0.7854 test auc: 0.8981 acc: 0.8022 f1: 0.7829
+****************************************************************************************************

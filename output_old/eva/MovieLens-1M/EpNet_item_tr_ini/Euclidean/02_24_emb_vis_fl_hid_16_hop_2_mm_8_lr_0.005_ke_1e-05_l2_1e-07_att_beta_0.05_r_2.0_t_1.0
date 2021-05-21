@@ -1,0 +1,24 @@
+dataset_MovieLens-1M dim_16 n_hop_2 kge_weight_1e-05 l2_weight_1e-07 lr_0.005 batch_size_512 n_epoch_1000 n_memory_8 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_0 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_fl model_name_EpNet_item_tr_ini using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Euclidean att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_False path_<path.Path object at 0x7fcb876d65b0> logger_<Logger ../output_2_23/log/MovieLens-1M/EpNet_item_tr_ini/Euclidean/02_24_emb_vis_fl_hid_16_hop_2_mm_8_lr_0.005_ke_1e-05_l2_1e-07_att_beta_0.05_r_2.0_t_1.0.txt (DEBUG)> n_user_6036 n_item_2445 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_
+best eva precision = 0.224,0.23,0.2368,0.2324,0.23424,0.22408,0.19736
+best eva recall = 0.004008,0.008434,0.021736,0.042695,0.10631,0.200976,0.350618
+best eva ndcg = 0.224,0.228642,0.234965,0.233332,0.277417,0.416241,0.610059
+best test precision = 0.28,0.284,0.2696,0.2668,0.2472,0.2215,0.1941
+best test recall = 0.0053,0.0108,0.0253,0.049,0.1131,0.2009,0.35
+best test ndcg = 0.28,0.2831,0.2728,0.2698,0.3021,0.4294,0.6217
+
+****************************************************************************************************
+dataset_MovieLens-1M dim_16 n_hop_2 kge_weight_1e-05 l2_weight_1e-07 lr_0.005 batch_size_512 n_epoch_1000 n_memory_8 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_0 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_fl model_name_EpNet_item_tr_ini using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Euclidean att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_False path_<path.Path object at 0x7fcb876d65b0> logger_<Logger ../output_2_23/log/MovieLens-1M/EpNet_item_tr_ini/Euclidean/02_24_emb_vis_fl_hid_16_hop_2_mm_8_lr_0.005_ke_1e-05_l2_1e-07_att_beta_0.05_r_2.0_t_1.0.txt (DEBUG)> n_user_6036 n_item_2445 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_
+step 16  eval auc: 0.9192 acc: 0.8447 f1: 0.8494 test auc: 0.9180 acc: 0.8435 f1: 0.8472
+****************************************************************************************************
+dataset_MovieLens-1M dim_16 n_hop_2 kge_weight_1e-05 l2_weight_1e-07 lr_0.005 batch_size_512 n_epoch_1000 n_memory_8 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_0 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_fl model_name_EpNet_item_tr_ini using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Euclidean att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_False path_<path.Path object at 0x7f62cde68580> logger_<Logger ../output_2_23/log/MovieLens-1M/EpNet_item_tr_ini/Euclidean/02_24_emb_vis_fl_hid_16_hop_2_mm_8_lr_0.005_ke_1e-05_l2_1e-07_att_beta_0.05_r_2.0_t_1.0.txt (DEBUG)> n_user_6036 n_item_2445 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_
+best eva precision = 0.232,0.25,0.2448,0.2508,0.24544,0.22504,0.19744
+best eva recall = 0.004602,0.009497,0.022228,0.044975,0.110227,0.202038,0.352266
+best eva ndcg = 0.232,0.245927,0.243368,0.249062,0.290873,0.423831,0.617522
+best test precision = 0.308,0.302,0.2848,0.2644,0.2466,0.2258,0.1931
+best test recall = 0.0054,0.0107,0.0258,0.0478,0.1117,0.204,0.3464
+best test ndcg = 0.308,0.3034,0.291,0.2754,0.3056,0.4398,0.625
+
+****************************************************************************************************
+dataset_MovieLens-1M dim_16 n_hop_2 kge_weight_1e-05 l2_weight_1e-07 lr_0.005 batch_size_512 n_epoch_1000 n_memory_8 emb_eval_True r_2.0 plt_s_0.2 dis_mx_clip_15.0 t_1.0 et_freq_0 item_update_mode_plus_transform save_model_name_tmp expname_emb_vis_fl model_name_EpNet_item_tr_ini using_all_hops_True show_topk_False save_record_user_list_False manifold_name_Euclidean att_beta_0.05 use_cuda_True grad_clip_max_1e-05 grad_clip_True sw_stage_0 lr_reduce_freq_10 gamma_0.8 debug_test_False load_pretrain_emb_False path_<path.Path object at 0x7f62cde68580> logger_<Logger ../output_2_23/log/MovieLens-1M/EpNet_item_tr_ini/Euclidean/02_24_emb_vis_fl_hid_16_hop_2_mm_8_lr_0.005_ke_1e-05_l2_1e-07_att_beta_0.05_r_2.0_t_1.0.txt (DEBUG)> n_user_6036 n_item_2445 item_set_most_pop_ entities_set_ entities_type_set_ entities_type_color_
+step 16  eval auc: 0.9180 acc: 0.8435 f1: 0.8476 test auc: 0.9170 acc: 0.8422 f1: 0.8455
+****************************************************************************************************
