@@ -35,7 +35,7 @@ The code has been tested running under Python 3.6.5. The required packages are a
 ```
 $ cd KBHP
 $ conda deactivate
-$ conda create --name KBHP --file requirements.txt
+$ conda env create -f requirements.yml
 $ conda activate KBHP
 ```
 
