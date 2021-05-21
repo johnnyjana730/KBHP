@@ -1,0 +1,1 @@
+[INFO]  Parameters:['scale', 'one_like_bahop', 'entity_emb_matrix_sw.weight', 'rela_plus_emb_matrix.weight', 'relation_emb_matrix.weight', 'rel_diag_matrix.weight', 'rel_diag_2_matrix.weight', 'context_vec.weight']

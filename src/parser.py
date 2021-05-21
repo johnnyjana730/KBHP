@@ -1,5 +1,5 @@
 import argparse
-from path_svemb import Path
+from path import Path
 
 def parse_args():
 	parser = argparse.ArgumentParser()

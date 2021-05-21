@@ -1,0 +1,3 @@
+[INFO]  Parameters:['scale', 'one_like_bahop', 'entity_emb_matrix_sw.weight', 'rela_plus_emb_matrix.weight', 'relation_emb_matrix.weight', 'rel_diag_matrix.weight', 'rel_diag_2_matrix.weight', 'context_vec.weight']
+[INFO]  step 0  train auc: 0.7327 acc: 0.6666 f1: 0.6301 eval auc: 0.6908 acc: 0.6423 f1: 0.6022 test auc: 0.6865 acc: 0.6403 f1: 0.5997
+[INFO]  Save model to ../misc/amazon-book_20core/emb/rot_pur_hih/Hyperboloid/05_21_KBHP_hid_16_hop_2_mm_16_lr_0.0005_ke_5e-05_l2_5e-07_att_beta_0.15_r_2.0_t_1.0_sw_0.ckpt
