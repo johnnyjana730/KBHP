@@ -41,10 +41,10 @@ $ conda activate KBHP
 
 ## Example to Run the Codes
 
-* MVIN
+* KBHP
 ```
-$ cd src/bash/
-$ bash bash_run.sh "MVIN" $dataset $gpu
+$ cd bash
+$ bash bash_run.sh $dataset $gpu
 ```
 
 * other baseline models, pls refer to (https://github.com/johnnyjana730/MVIN)
