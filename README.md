@@ -2,7 +2,7 @@
 
 KBHP: Knowledge Based Hyperbolic Propagation, SIGIR 2021
 
-This repository is the implementation of KBHP ([ACM](https://dl.acm.org/doi/10.1145/3404835.3462980))::
+This repository is the implementation of KBHP ([ACM](https://dl.acm.org/doi/10.1145/3404835.3462980)):
 > Chang-You Tai, and Lun-Wei Ku. SIGIR 2021. KBHP: Knowledge Based Hyperbolic Propagation
 
 
